@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Responsive Flowers Main</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="w-full flex items-center justify-between">
+      <img src="assets/logo.png" alt="Logo" class="w-32 md:w-40" />
+
+      <ul class="hidden md:flex space-x-10 items-center mt-5">
+        <li class="font-bold"><a href="">Home</a></li>
+        <li><a href="">Shop</a></li>
+        <li><a href="">About us</a></li>
+        <li class="flex items-center space-x-1">
+          <img src="assets/shopping-cart.png" alt="" class="w-5" />
+          <span>Cart ($56)</span>
+        </li>
+      </ul>
+
+      <div class="flex md:hidden items-center space-x-1 mt-6">
+        <img src="assets/shopping-cart.png" alt="Cart" class="w-6" />
+        <span class="text-base">Cart ($56)</span>
+      </div>
+    </nav>
+  </body>
+</html>
